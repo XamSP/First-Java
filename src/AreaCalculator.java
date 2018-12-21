@@ -1,10 +1,25 @@
 public class AreaCalculator {
-    public static void main(String[] args) {
-        public static int area(double radius) {
-         return radius;
+
+    public static double area(double radius) {
+        if(radius < 0) {
+            return -1.0;
         }
 
-        area(20)
+        return radius * radius * 3.14159;
+    }
+
+    public static double area(double x, double y) {
+        if(x < 0 || y < 0) {
+            return -1.0;
+        }
+
+        return x * y;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(area(20));
+
     }
 
 
