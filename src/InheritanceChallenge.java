@@ -1,7 +1,7 @@
 public class InheritanceChallenge {
     public static class Vehicle {
-        int wheels;
-        String engine;
+        private int wheels;
+        private String engine;
 
         public Vehicle(int wheels) {
             this(wheels, "Normal Engine");
@@ -34,9 +34,9 @@ public class InheritanceChallenge {
 
     public static class Ford extends Car {
 
-        boolean steering;
-        boolean changingGears;
-        int speed;
+        private boolean steering;
+        private boolean changingGears;
+        private int speed;
 
         public Ford(String engine, boolean steering, boolean changingGears, int speed){
             super(engine);
@@ -49,12 +49,56 @@ public class InheritanceChallenge {
             this("Ford Engine", steering, changingGears, speed);
         }
 
+        public void decreaseSpeed(int speed) {
+            this.speed = this.speed - speed;
+        }
+
+        public void increaseSpeed(int speed) {
+            this.speed = this.speed + speed;
+        }
+
+        public void setChangingGears() {
+            this.changingGears = this.changingGears ? false : true;
+        }
+
+        public void setSteering() {
+            this.steering = this.steering ? false : true;
+        }
+
+        public boolean isSteering() {
+            return steering;
+        }
+
+        public boolean isChangingGears() {
+            return changingGears;
+        }
+
+        public int getSpeed() {
+            return speed;
+        }
     }
 
 
     public static void main(String[] args) {
-        Ford ford = new Ford(true, true, 120);
+        Ford fordFiesta = new Ford(false, false, 120);
 
-        System.out.println(ford.getWheels() + " Wheels with a " + ford.getEngine() + ". Also with a speed of " + +);
+        System.out.println(fordFiesta.getWheels() + " Wheels with a " + fordFiesta.getEngine() + ". Also with a speed of " + fordFiesta.getSpeed() + " mph.");
+
+        fordFiesta.increaseSpeed(40);
+
+        System.out.println("Speed increased by 40 and now is " + fordFiesta.getSpeed() + " mph.");
+
+        System.out.println("Car's gears: " + fordFiesta.isChangingGears() + ". And is Car steering: " + fordFiesta.isSteering() + ".");
+
+        fordFiesta.setChangingGears();
+
+        fordFiesta.setSteering();
+
+        System.out.println("Car's gears: " + fordFiesta.isChangingGears() + ". And is Car steering: " + fordFiesta.isSteering() + ".");
+
+        fordFiesta.decreaseSpeed(50);
+
+        System.out.println("Speed decreased by 50 and now is " + fordFiesta.getSpeed() + " mph.");
+
     }
 }
