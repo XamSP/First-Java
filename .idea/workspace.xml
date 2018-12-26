@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c865f93d-cacb-4e33-a898-cd8e1e07261e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HouseExerciseComposition/Bed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HouseExerciseComposition/Desk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HouseExerciseComposition/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HouseExerciseComposition/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrinterEncapsulationExercise/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrinterEncapsulationExercise/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,37 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HouseExerciseComposition/House.java">
+        <entry file="file://$PROJECT_DIR$/src/PrinterEncapsulationExercise/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-391">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HouseExerciseComposition/Desk.java">
+        <entry file="file://$PROJECT_DIR$/src/PrinterEncapsulationExercise/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HouseExerciseComposition/Bed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HouseExerciseComposition/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="323">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -83,11 +62,13 @@
         <option value="$PROJECT_DIR$/src/EqualityPrinter.java" />
         <option value="$PROJECT_DIR$/src/PlayingCat.java" />
         <option value="$PROJECT_DIR$/src/VIPExercise/VIPCustomer.java" />
-        <option value="$PROJECT_DIR$/src/InheritanceChallenge.java" />
         <option value="$PROJECT_DIR$/src/HouseExerciseComposition/Desk.java" />
         <option value="$PROJECT_DIR$/src/HouseExerciseComposition/Bed.java" />
         <option value="$PROJECT_DIR$/src/HouseExerciseComposition/Room.java" />
         <option value="$PROJECT_DIR$/src/HouseExerciseComposition/House.java" />
+        <option value="$PROJECT_DIR$/src/InheritanceChallenge.java" />
+        <option value="$PROJECT_DIR$/src/PrinterEncapsulationExercise/Computer.java" />
+        <option value="$PROJECT_DIR$/src/PrinterEncapsulationExercise/Printer.java" />
       </list>
     </option>
   </component>
@@ -115,12 +96,6 @@
               <item name="First-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="First-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HouseExerciseComposition" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -129,7 +104,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545850352220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545865928575" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -149,8 +124,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HouseExerciseComposition.House" />
+    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrinterEncapsulationExercise.Computer" />
       <module name="Again" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,7 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.House" />
+        <item itemvalue="Application.Computer" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +152,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14209726" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14209726" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.20737328" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -191,7 +167,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32565284" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.40752864" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -308,13 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InheritanceChallenge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HouseExerciseComposition/Room.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -347,6 +316,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InheritanceChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrinterEncapsulationExercise/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrinterEncapsulationExercise/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
